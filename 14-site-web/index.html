@@ -1,8 +1,166 @@
-<!doctype html>
-	<html>
-		<head>
-            <title></title>
-		</head>
-		<body>
-		</body>
-	</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Japan Visite</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">Photo galery</a>
+  <a href="#" style="float:right">Home</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>KYOTO</h2>
+      <h5>Unbeliveble Nature, 2024</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Kyoto, located in the Kansai region of Japan, is the country's seventh largest city, with a population of 1.4 million people. Fusion between rich natural environment called “Sanshi-suimei” or “Purple Mountains and Clear Water” which is featured by the mountains on three sides and Kamo and Katsura rivers? and many historical properties including the World Heritage sites and attractive streets form the unique local landscapes.</p>
+    </div>
+    <div class="card">
+      <h2>OSAKA</h2>
+      <h5>HUGE city, 2024</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Osaka est une grande ville portuaire et un centre commerçant de l'île japonaise d'Honsh?. Elle est connue pour son architecture moderne, sa vie nocturne et la qualité de sa street food. Principal monument historique de la ville, le château d'Osaka, construit au XVIe siècle lors du shogunat, a subi plusieurs restaurations. Il est entouré de douves ainsi que d'un parc planté de pruniers, de pêchers et de cerisiers à fleurs.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Ive always wanted to go to japan since I was young, and now that I can, i must...no need to share my experience with the world. </p>
+    </div>
+    <div class="card">
+      <h3>Other popular places</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Japhplay_13</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>WILL YOU COME VISITE?</h2>
+</div>
+<ul>
+ 
+  <li><a href="image galery.html">Image galery</a></li>
+</ul>
+</body>
+</html>
+
+
